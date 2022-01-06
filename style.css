@@ -1,0 +1,192 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    margin:0;
+}
+section{
+    margin:0 auto;
+    width:1100px;
+    margin-bottom: 70px;
+}
+.header{display: flex;}
+.header .first-part, .header .secound-part{
+    width: 50%;
+}
+.header-heading{
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    margin: 90px 0 10px;
+}
+.header-heading span, .mission-heading span{
+    color:#ce0a0a
+}
+.heading-border{
+    width:6px;
+    height: 118px;
+    background-image:linear-gradient(#d01515, #ff0000);
+    float: left;
+    margin-top: 18px;
+    margin-right: 8px;
+    border-radius: 6px;
+}
+.intro-text{
+    margin: 10px 0 25px 0;
+}
+.header .first-part .link-button{
+    background-image: linear-gradient(45deg, #ce0a0a, #ff0000);
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.scroll-down-text{
+    margin-top:25px
+}
+.my-pic{
+    width: 350px;
+    float: right;
+    margin: 20px;
+}
+.mission-inner{
+    display: flex;
+}
+.mission .first-part, .mission .second-part, .mission .third-part{
+    width:32%;
+    height: 340px;
+    border-radius: 25px;
+}
+.mission-img{
+    width: 150px;
+    margin: 10px;
+}
+.mission-title{
+    margin-left: 20px;
+}
+.mission-des{
+    margin: 0 20px;
+}
+.mission-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+
+}
+.mission .first-part{
+    background-color:#edf5f6;
+}
+.mission .second-part{
+    background-color: #ffeeee;
+    margin: 0 2%;
+}
+.mission .third-part{
+   background-color: #fff4d6;
+}
+.part-3, .part-4{
+    display: flex;
+}
+.part-4{
+    padding-bottom: 70px;
+}
+.part-3 .first-part, .part-4 .second-part{
+    width:40%;
+}
+.part-3 .first-part-img, .part-4 .second-part-img{
+    width: 90%;
+}
+.part-4 .second-part-img{
+    float: right;
+}
+.part-3 .second-part, .part-4 .first-part{
+    width:60%;
+    padding: 30px 0;
+}
+.part-3 .second-part .part3-heading, .part-4 .first-part .part3-heading{
+    font-size: 30px;
+}
+.part-3 .second-part .part3-text, .part-4 .first-part .part3-text{
+    font-size: 14px;
+}
+.part-3 .second-part .link-button, .part-4 .first-part .link-button{
+    padding: 10px 25px;
+    background-image: linear-gradient(45deg, #ce0a0a, #ff0000);
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 10px;
+}
+.contact{
+    padding: 0 150px;
+    background-image: url(images/shape-1.png);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    background-position: left 55px bottom 6px;
+}
+.contact-heading{
+    font-size: 40px;
+    text-align: center;
+}
+.contact-heading span{
+    color: #d40909;
+    font-weight: 900;
+}
+.contact-inner{
+    display: flex;
+}
+.contact-part1, .contact-part2{
+    width: 50%;    
+}
+.contact-part1{
+    margin-right:20px
+}
+.contact-part2{
+    margin-left:20px
+}
+.contact-inner input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #d84f4f;
+    border-width: 1px;
+}
+.input-label{
+    margin-bottom: 10px;
+}
+.contact-comment{
+    border-radius: 5px;
+    border-color: #d84f4f;
+    border-width: 1px;
+    width: 100%;
+    height: 250px;
+}
+
+.part-3-outer{
+    background-image: url("images/shape-1.png");
+    background-position: left 110px top 50px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    
+}
+.part-4-outer{
+    background-image: url("images/shape-1.png");
+    background-position: right 135px bottom 0;
+    background-size: 188px;
+    background-repeat: no-repeat;
+}
+.footer{
+    background-color:#0b0d17;
+    height: 170px;
+    width: 100%;
+    padding: 30px 0;
+}
+.footer p{
+    text-align: center;
+    color: #fff;
+}
+.footer-logo{
+    width: 130px;
+    height: auto;
+}
